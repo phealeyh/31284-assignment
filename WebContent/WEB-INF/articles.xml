@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="index.xsl"?>
+
+
+<!-- User data stored here is accessible from the WWW since it not is in the WEB-INF folder. Nothing here is needed to be secured since all is public  -->
+
+<!--	<articles xmlns="http://www.uts.edu.au/31284/wsd-articles"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.uts.edu.au/31284/wsd-articles articles.xsd">
+  -->
+  
+<articles xmlns="http://www.uts.edu.au/31284/wsd-articles"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.uts.edu.au/31284/wsd-articles articles.xsd">
+	<article id="1">
+		<author>Bethany Elmslie</author>
+		<date>11-12-2008</date>
+		<title>Para functional programming</title>
+		<category>Information Technology</category>
+		<sText>This article introduces para-functional programming, a methodology for programming multiprocessor computing systems. It is based on a functional programming model augmented with features that allow programs to be mapped to specific multiprocessor topologies.</sText>
+		<text> This article introduces para-functional programming, a methodology for programming multiprocessor computing systems. It is based on a functional programming model augmented with features that allow programs to be mapped to specific multiprocessor topologies. The most significant aspect of the methodology is that it treats the multiprocessor as a single autonomous computer onto which a program is mapped, rather than as a group of independent processors that carry out complex communication and require complex synchronization. In more convenient approaches to parallel programming, the latter method of treatment is often manifested as processes that cooperate by message-passing. However, such notions are absent in para-functional programming; indeed, a single language and evaluation model can be used from problem inception, to prototypes targeted for uni-processors, and ultimately to realizations on a parallel machine. http://www.osti.gov/scitech/biblio/5185440</text>
+	</article>
+	<article id="2">
+		<author>Cody Cerutty</author>
+		<date>04-08-2011</date>
+		<title>Principles and practice for agricultural research evaluation</title>
+		<category>Sciences</category>
+		<sText>Resources for agricultural science are scarce across the world. Yet even as resources are shrinking, agricultural science has expanded its inquiry into many new areas, such as environmental preservation, food quality, and rural development, without forsaking its more traditional concerns. </sText>
+		<text>Resources for agricultural science are scarce across the world. Yet even as resources are shrinking, agricultural science has expanded its inquiry into many new areas, such as environmental preservation, food quality, and rural development, without forsaking its more traditional concerns. In a time of tight government budgets, research administrators are faced with the need to provide strong evidence that costs are justified by benefits. Science under Scarcity is an invaluable guide to the theory and methods necessary for evaluating research in agriculture and for setting priorities for resource allocation. Although economists have made significant progress in developing more sophisticated methods for research evaluation and priority setting, many research analysts and administrators do not have a working knowledge of those practices. Without the assistance of formal economic analysis it is particularly difficult to assess the social value of new technologies or to make informed judgments about the trade-offs that are involved in allocation decisions. http://www.cabdirect.org/abstracts/19986772609.html</text>
+	</article>
+	<article id="3">
+		<author>Rebecca Judd</author>
+		<date>06-07-2008</date>
+		<title>Electronic Medical Records and Diabetes Quality of Care</title>
+		<category>Health Care</category>
+		<sText>Care of patients with diabetes requires management of complex clinical information, which may be improved by the use of an electronic medical record (EMR); however, the actual relationship between EMR usage and diabetes care quality in primary care settings is not well understood.</sText>
+		<text>Care of patients with diabetes requires management of complex clinical information, which may be improved by the use of an electronic medical record (EMR); however, the actual relationship between EMR usage and diabetes care quality in primary care settings is not well understood. We conducted cross-sectional analyses of baseline data from 50 practices participating in a practice improvement study. Between April 2003 and December 2004 chart auditors reviewed a random sample of medical records from patients with diabetes in each practice for adherence to guidelines for diabetes processes of care, treatment, and achievement of intermediate outcomes. The use of an EMR in primary care practices is insufficient for insuring high-quality diabetes care. Efforts to expand EMR use should focus not only on improving technology but also on developing methods for implementing and integrating this technology into practice reality. http://www.annfammed.org/content/5/3/209.short</text>
+	</article>
+	<article id="4">
+		<author>Michael Drew</author>
+		<date>02-03-2007</date>
+		<title>The successful architectural integration of PV in Australia</title>
+		<category>Architecture</category>
+		<sText>An abundance of solar energy resources in Australia and the application of remote area power systems (RAPS) are well known. Numerous locations, isolated from the electricity grid have benefited from photovoltaic energy supply with economic justification and provided a platform from which the scientific knowledge and expertise has grown over 30 years. </sText>
+		<text>An abundance of solar energy resources in Australia and the application of remote area power systems (RAPS) are well known. Numerous locations, isolated from the electricity grid have benefited from photovoltaic energy supply with economic justification and provided a platform from which the scientific knowledge and expertise has grown over 30 years. Of current global relevance is the transition and growth of photovoltaic applications in the urban environment through building-integrated PV (BiPV) and its use as a clever building material. Energy market dynamics in Australia and low-priced fossil fuels limit the present market potential for BiPV. Showcase projects and government programmes have provided the much needed impetus to develop and introduce BiPV products to the building industry and, importantly, experiment with architectural design solutions that strive to offer added benefits to the built environment.The importance of high ambient temperature conditions, thermal performance and smart electrical configurations to minimise shading influences, are considered to be particularly relevant. http://onlinelibrary.wiley.com/doi/10.1002/pip.572/abstract</text>
+	</article>
+</articles>

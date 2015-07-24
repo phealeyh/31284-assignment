@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.uts.edu.au/31284/wsd-articles" xmlns="http://www.uts.edu.au/31284/wsd-articles"
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+
+	<!--type declarations -->
+
+	<xs:simpleType name="id">
+		<xs:restriction base="xs:integer">
+		  <xs:minInclusive value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="date">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{1,2}-\d{1,2}-\d{1,4}" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="name">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[A-Z][a-zA-Z]*( [A-Z][a-zA-Z]*)*" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="title">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[A-Z][a-zA-Z]*( [a-zA-Z]*)*" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="category">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[A-Z][a-zA-Z]*( [A-Z][a-zA-Z]*)*" />
+		</xs:restriction>
+	</xs:simpleType>
+
+
+	<!-- element declarations -->
+	<xs:element name="articles">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="article" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<!-- <xs:element name="id" type="id"></xs:element> -->
+							<xs:element name="author" type="name"></xs:element>
+							<xs:element name="date" type="date"></xs:element>
+							<xs:element name="title" type="title"></xs:element>
+							<xs:element name="category" type="category"></xs:element>
+							<xs:element name="sText" type="xs:string"></xs:element>
+							<xs:element name="text" type="xs:string"></xs:element>
+						</xs:sequence>
+						<xs:attribute type="id" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

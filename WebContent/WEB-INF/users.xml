@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="author.xsl"?>
+
+
+<!-- User data stored here is inaccessible from the WWW since it is in the 
+	WEB-INF folder -->
+	
+<!--	<users xmlns="http://www.uts.edu.au/31284/wsd-users"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.uts.edu.au/31284/wsd-users users.xsd">
+  -->
+
+<users xmlns="http://www.uts.edu.au/31284/wsd-users"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.uts.edu.au/31284/wsd-users users.xsd">
+    <user>
+        <email>CCerutty@gmail.com</email>
+        <fName>Cody</fName>
+        <sName>Cerutty</sName>
+        <password>cerutty</password>
+        <dob>24-09-1988</dob>
+        <bio>I am a University of New South Wales PhD graduate. I completed a Bachelor of Sciences
+        degree, and focused on Agricultural Sciences for my Masters. I graduated in 2007 and have since
+        worked on increasing my knowledge on other areas. I have been writing research essays and articles
+        for submission into many online databases.</bio>
+    </user>
+    <user>
+        <email>BElmslie@gmail.com</email>
+        <fName>Bethany</fName>
+        <sName>Elmslie</sName>
+        <password>elmsie</password>
+        <dob>24-09-1977</dob>
+        <bio>I am a coding specialist that works for the Nelson Brothers company in Adelaide, SA.
+        I have worked there since 1998, and now have gained an interest in sharing my knowledge
+        with others. My favourite colour is Purple and I live with my 3 children, aged 4, 13, 16, and my husband.
+        </bio>
+    </user>
+    <user>
+        <email>RJudd@gmail.com</email>
+        <fName>Rebecca</fName>
+        <sName>Judd</sName>
+        <password>judd</password>
+        <dob>13-11-1981</dob>
+        <bio>I have been submitting my scholarly works to various online platforms since graduating with my
+       	Masters degree from the Australian National University in Canberra, ACT, Australia. I write about
+       	topics I am passionate about, however focus on Practices of Medicine in Australia, and research
+       	issues and challenges with current methods, as well as advocating for changes to better reflect
+       	changes in society, and advancements in medicines.
+        </bio>
+    </user>
+    <user>
+        <email>MDrew@gmail.com</email>
+        <fName>Michael</fName>
+        <sName>Drew</sName>
+        <password>drew</password>
+        <dob>12-01-1969</dob>
+        <bio>I am an enthusiastic writer about Architectural History, focusing on the changing ideals in
+        modern architecture, dating from the 18th century up to the 21st century. My hobbies include designing
+        small-scale environments using 3D technologies to model societies specific to time periods. 
+        </bio>
+    </user>
+</users>

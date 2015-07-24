@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.uts.edu.au/31284/wsd-users" xmlns="http://www.uts.edu.au/31284/wsd-users"
+	elementFormDefault="qualified">
+	
+
+	<!-- type declarations -->
+	<xs:simpleType name="email">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[a-zA-Z\._]+@[a-zA-Z\-]+(\.[a-zA-Z\-]+)+" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="date">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{1,2}-\d{1,2}-\d{1,4}" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="name">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[A-Z][a-zA-Z]*" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<!--element declarations -->
+	<xs:element name="users">
+		<xs:annotation>
+			<xs:documentation>User data stored here is inaccessible from the WWW
+				since it is in the WEB-INF folder</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="user" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="email" type="email"></xs:element>
+							<xs:element name="fName" type="name"></xs:element>
+							<xs:element name="sName" type="name"></xs:element>
+							<xs:element name="password" type="xs:string"></xs:element>
+							<xs:element name="dob" type="date"></xs:element>
+							<xs:element name="bio" type="xs:string"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>
